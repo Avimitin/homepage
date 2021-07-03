@@ -29,7 +29,7 @@ h1 {
 
 a {
 	outline: none;
-	text-decoration: none;
+	text-decoration: underline;
 	padding: 2px 1px 0;
 	color: #242a32;
 }
