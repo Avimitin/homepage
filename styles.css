@@ -39,6 +39,7 @@ a {
 
 a:hover {
 	color: #555168;
+	text-shadow: 0 0 7px #eaeaea, 0 0 10px #eaeaea, 0 0 21px #eaeaea;
 }
 
 img {
