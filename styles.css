@@ -1,12 +1,12 @@
 html {
 	text-align: center;
-	background-image: url("static/background.jpg");
+	background-image: url("static/background.jpeg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center 25%;
 	min-height: 100vh;
 }
 
