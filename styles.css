@@ -52,33 +52,3 @@ a:hover {
 	color: #555168;
 	text-shadow: 0 0 7px #eaeaea, 0 0 10px #eaeaea, 0 0 21px #eaeaea;
 }
-
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 0.2rem;
-	width: 15rem;
-	height: auto;
-	box-shadow: rgba(84, 78, 99, 0.4) 0px 5px, rgba(84, 78, 99, 0.3) 0px 10px,
-		rgba(84, 78, 99, 0.2) 0px 15px, rgba(84, 78, 99, 0.1) 0px 20px, rgba(84, 78, 99, 0.05) 0px 25px;
-	position: relative;
-	margin-top: 2rem;
-}
-
-.gpg-fingerprint {
-	color: #eaeaea;
-	font-family: "Otomanopee One", sans-serif;
-	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
-}
-
-pre {
-	overflow: auto;
-	margin-bottom: 2rem;
-	color: transparent;
-	background: #4c4c4c;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	background-clip: text;
-	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-}
