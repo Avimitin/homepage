@@ -22,6 +22,12 @@ html {
 	}
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 h1 {
 	color: #bef8fb;
 	font-family: "Otomanopee One", sans-serif;
