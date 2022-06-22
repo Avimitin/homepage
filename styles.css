@@ -30,28 +30,45 @@ body {
 
 h1 {
 	color: #fff;
-	font-family: monospace;
+	font-family: Sans;
 	text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.8);
-  padding: 1rem;
-  font-size: 2.5rem;
-}
-
-.links:hover {
-  text-decoration: underline;
+	padding: 1rem;
+	font-size: 4rem;
+	font-weight: 900;
 }
 
 a {
 	outline: none;
 	text-decoration: none;
-	text-shadow: 2px 5px 8px rgba(57, 52, 166, 0.5);
+	text-shadow: 2px 5px 8px rgba(34, 41, 82, 0.5);
 	padding: 2px 5px 0;
 	color: #595959;
 	font-family: monospace;
-  font-size: 1rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: all .3s;
+	background: linear-gradient(to right bottom, #F8F8FF, #C0C0C0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 a:hover {
 	color: #eaeaea;
-	text-shadow: 0 0 7px #eaeaea, 0 0 10px #eaeaea, 0 0 21px #eaeaea;
-  font-size: 1.3rem;
+	font-size: 1.8rem;
+	transform: scale(5);
+	animation: animatedGlow 2s linear infinite;
+}
+
+@keyframes animatedGlow {
+  0% {
+	  text-shadow: unset;
+  }
+
+  50% {
+	  text-shadow: 0 0 7px #eaeaea, 0 0 10px #eaeaea, 0 0 21px #eaeaea;
+  }
+
+  100% {
+	  text-shadow: unset;
+  }
 }
