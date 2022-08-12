@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "CascadiaCode";
+  src: url('static/CascadiaCode-min.ttf') format('truetype');
+}
+
 html {
 	text-align: center;
 	background-image: url("static/background.jpg");
@@ -46,7 +51,7 @@ a {
 	text-shadow: 2px 5px 8px rgba(101, 101, 111, 0.5);
 	padding: 2px 5px 0;
 	color: #d0caca;
-	font-family: monospace;
+	font-family: "CascadiaCode";
 	font-size: 1.2rem;
 	font-weight: lighter;
 	transition: all .3s;
