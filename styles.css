@@ -1,6 +1,6 @@
 html {
 	text-align: center;
-	background-image: url("static/background.jpeg");
+	background-image: url("static/background.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -37,21 +37,19 @@ h1 {
 	padding: 1rem;
 	font-size: 4rem;
 	font-weight: 900;
+	margin-bottom: 0.2rem;
 }
 
 a {
 	outline: none;
 	text-decoration: none;
-	text-shadow: 2px 5px 8px rgba(34, 41, 82, 0.5);
+	text-shadow: 2px 5px 8px rgba(101, 101, 111, 0.5);
 	padding: 2px 5px 0;
-	color: #595959;
+	color: #d0caca;
 	font-family: monospace;
 	font-size: 1.2rem;
-	font-weight: bold;
+	font-weight: lighter;
 	transition: all .3s;
-	background: linear-gradient(to right bottom, #FFF, #D1D1D1 40%, #FFF 55%, #C0C0C0);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 a:hover {
